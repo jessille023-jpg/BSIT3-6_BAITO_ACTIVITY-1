@@ -15,6 +15,8 @@ app.get('/', (req, res) => {
 // INSERT biodata  10 ka content.
 app.post('/insert', (req, res) => {
 
+    console.log(req.body);
+
     const {
         firstname,
         lastname,
